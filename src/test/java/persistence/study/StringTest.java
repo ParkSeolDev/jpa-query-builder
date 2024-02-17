@@ -12,5 +12,6 @@ public class StringTest {
 		int intValue = 123;
 		String strValue = Integer.toString(intValue);
 		assertThat(strValue.equals("123")).isTrue();
+		
 	}
 }
